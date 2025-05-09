@@ -35,6 +35,6 @@ jobs:
           SOURCE: 'target/test.jar'
           REMOTE_HOST: 59.110.35.198
           REMOTE_USER: root
-          TARGET: '/var/lib/docker/volumes/test/_data/test.jar'
+          TARGET: '/var/lib/docker/volumes/test_test/_data/test.jar'
           SCRIPT_AFTER: |
-            docker restart test
+            docker restart test-test-1
