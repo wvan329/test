@@ -8,6 +8,6 @@ public class AController {
 
     @GetMapping("/a")
     public String a() {
-        return "永远相信，美好的事情即将发生！谢谢大家";
+        return "永远相信，美好的事情即将发生！谢谢大家.hei";
     }
 }
